@@ -13,9 +13,34 @@ body  {
 	background-color: #f2f2f2;
 	background-size: cover;
 }
+/*sidecard styling*/
 img {
-	width: 45%;
+	width: 80%;
 }
+#name {
+	margin-top: -2px;
+	margin-bottom: -16px;
+}
+#developer {
+	margin-top: -2px;
+	margin-bottom: -16px;
+}
+#contact {
+	font-size: 15px;
+	margin-top: -10px;
+}
+.sidecard {
+	width: 20%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin-right: 5%;
+/*	float: left;*/
+	background-color: #ADD8E6;
+	text-align: center;
+	box-shadow: -2px 8px 8px 0;
+	position: fixed;
+}
+/*main styling */
 .main {
 	width: 65%;
 	overflow: hidden;
@@ -28,6 +53,13 @@ img {
 	/*background-color: #FFFFFF;*/
 	/*border: .1px solid #000000;*/
 	font-size: 18px;
+}
+td{ 
+	padding-left: 25px;
+	padding-right: 35px;
+}
+tr {
+	padding-bottom: 10px;
 }
 .d-flex {
 	display: flex;
@@ -78,9 +110,6 @@ h4 {
 	padding-left: 55px;
 	padding-right: 35px;
 }
-.business, .eecs {
-	width: 50%;
-}
 #porj-title {
 	margin: 0;
 	padding: 0;
@@ -120,20 +149,8 @@ h4 {
 .top {
 	font-weight: bold;
 }
-.sidecard {
-	width: 20%;
-	padding: 5px;
-	padding-bottom: 20px;
-	margin-right: 5%;
-/*	float: left;*/
-	background-color: #ADD8E6;
-	text-align: center;
-	box-shadow: -2px 8px 8px 0;
-	position: fixed;
-}
-.contact {
-	font-size: 15px;
-}
+
+
 #position {
 	font-weight: bold;
 	font-size: 1.2rem;
