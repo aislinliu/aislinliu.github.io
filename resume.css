@@ -134,6 +134,16 @@ h4 {
 .contact {
 	font-size: 15px;
 }
+#position {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+#company {
+
+}
+#description {
+	font-size: .8rem;
+}
 button {
 	margin-top: 10px;
 	width: 85%;
